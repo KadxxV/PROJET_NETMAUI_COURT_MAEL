@@ -24,6 +24,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = COURT.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
+[C:/Users/spide/OneDrive/Documents/BUT2/MAUI/PROJET_NETMAUI_COURT_MAEL/COURT/COURT/Baguette.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = COURT.Baguette.xaml
+build_metadata.AdditionalFiles.TargetPath = Baguette.xaml
+build_metadata.AdditionalFiles.RelativePath = Baguette.xaml
+
 [C:/Users/spide/OneDrive/Documents/BUT2/MAUI/PROJET_NETMAUI_COURT_MAEL/COURT/COURT/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = COURT.MainPage.xaml
