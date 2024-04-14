@@ -14,6 +14,9 @@
     <MauiXaml Update="Croissant.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="MachoireCarre.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="PainAuChocolat.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

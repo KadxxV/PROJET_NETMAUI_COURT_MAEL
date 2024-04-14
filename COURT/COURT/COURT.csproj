@@ -62,6 +62,7 @@
 	  <None Remove="Resources\Images\croissant.png" />
 	  <None Remove="Resources\Images\painauchocolat.png" />
 	  <None Remove="Resources\Images\painauxraisins.png" />
+	  <None Remove="Resources\Raw\karma.mp4" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -71,10 +72,19 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Update="MachoireCarre.xaml.cs">
+	    <DependentUpon>MachoireCarre.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
 	  <MauiXaml Update="Baguette.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Croissant.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="MachoireCarre.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="PainAuChocolat.xaml">
