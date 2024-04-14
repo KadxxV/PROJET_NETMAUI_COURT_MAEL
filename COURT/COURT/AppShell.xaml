@@ -7,9 +7,24 @@
     Shell.FlyoutBehavior="Disabled"
     Title="COURT">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <TabBar Shell.TabBarUnselectedColor="Black">
+
+        <Tab Title="PainAuRaisin"
+            Icon="painauxraisins.png">
+            <ShellContent ContentTemplate="{DataTemplate local:PainAuRaisin}" />
+        </Tab>
+        <Tab Title="PainAuChocolat"
+            Icon="painauchocolat.png">
+            <ShellContent ContentTemplate="{DataTemplate local:PainAuChocolat}" />
+        </Tab>
+        <Tab Title="Croissant"
+            Icon="croissant.png">
+            <ShellContent ContentTemplate="{DataTemplate local:Croissant}" />
+        </Tab>
+        <Tab Title="Baguette"
+            Icon="baguette.png">
+            <ShellContent ContentTemplate="{DataTemplate local:Baguette}" />
+        </Tab>
+    </TabBar>
 
 </Shell>
