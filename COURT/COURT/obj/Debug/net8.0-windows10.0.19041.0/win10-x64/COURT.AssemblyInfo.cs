@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("COURT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b012191c262c9c09515d69b714a5c29293b08441")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b7551538b2135992eb11e16e4718b8adb7c070bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("COURT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("COURT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
