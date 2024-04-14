@@ -7,5 +7,27 @@
     Shell.FlyoutBehavior="Disabled"
     Title="PainAuRaisin">
 
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
 
+            <Label
+                Text="La meilleur vienoiserie"
+                
+                FontSize="40"
+                HorizontalOptions="Start" 
+                SemanticProperties.HeadingLevel="Level1"/>
+
+            <Label
+                Text="Si vous êtes ici c'est que vous êtes une bonne personne"
+
+                FontSize="20"
+                HorizontalOptions="Start"
+                SemanticProperties.HeadingLevel="Level2"/>
+
+            
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

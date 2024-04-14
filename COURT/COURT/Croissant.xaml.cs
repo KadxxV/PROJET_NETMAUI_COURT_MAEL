@@ -4,7 +4,7 @@
     {
         public Croissant()
         {
-            
+            InitializeComponent();
         }
     }
 }
